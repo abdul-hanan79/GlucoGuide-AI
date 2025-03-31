@@ -1,1 +1,1 @@
- GlucoGuid AI
+GlucoGuid AI
