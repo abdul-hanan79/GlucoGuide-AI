@@ -30,6 +30,7 @@ def get_meal_plan(api_key, fasting_sugar, pre_meal_sugar, post_meal_sugar, dieta
             }
         ]
     )
+    
   raw_context = message.content
     itinerary = raw_context[0].text
     print("itern",itinerary)
