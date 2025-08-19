@@ -4,11 +4,17 @@ import anthropic
 # api_key = st.secrets["claude_api_key"]
 api_key = "sk-ant-api03-KHuz9SXDBUVfEaJwxqa3eH9x3C64GZmgrmLxC-8n-CJFt50Amcntr5zE62blgqbtwmHZpxwrXoo4d7gs2aS_KQ-J-EoBwAA"
 
+
+
+
 # Function to call Claude AI API and get a personalized meal plan
 def get_meal_plan(api_key, fasting_sugar, pre_meal_sugar, post_meal_sugar, dietary_preferences):
     # Initialize the Claude AI client with the provided API key
+
+
     client = anthropic.Anthropic(api_key=api_key)
         # Define the prompt to send to Claude AI
+        
     prompt = (
         f"My fasting sugar level is {fasting_sugar} mg/dL, "
         f"my pre-meal sugar level is {pre_meal_sugar} mg/dL, "
